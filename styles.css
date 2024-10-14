@@ -1,0 +1,63 @@
+.post {
+    width: 450px;
+    height: 600px;
+    border: solid black;
+    margin: auto;
+    margin-top: 150px;
+    font-family: Roboto;
+}
+
+body{
+    height: 100%;
+    background: black;
+}
+
+.postHeader{
+    display: flex;
+    padding: 11px;
+    background-color: white;
+}
+
+.postHeader :first-child {
+    font-size: 40px;
+}
+
+.postHeader :nth-child(2) {
+    font-size: 14px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.iconos {
+    display: flex;
+    font-size: 27px;
+    gap: 7px;
+    padding-left: 7px;
+}
+.puntitos {
+    margin-left: auto;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+div .photo {
+    background-color: white;
+}
+
+img {
+    width: 100%
+}
+
+.guarda {
+    margin-left: auto;
+}
+.footer {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.iconos :last-child {
+    padding-right: 7px;
+}
